@@ -1,0 +1,4 @@
+{
+  "config.jade.plugin_itigf.show_iron_golem_friendliness": "显示铁傀儡是否对玩家友好",
+  "entity.itigf.iron_golem.friendly": "友好"
+}

@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "itigf",
+	"version": "${version}",
+	"name": "Is That Iron Golem Friendly?",
+	"description": "A Jade plugin that indicates whether an iron golem is created by player",
+	"authors": [
+		"moposx"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/is-that-iron-golem-friendly/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.moposx.itigf.IsThatIronGolemFriendly"
+		],
+		"jade": [
+			"me.moposx.itigf.IsThatIronGolemFriendlyPlugin"
+		]
+	},
+	"mixins": [
+		"itigf.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.5.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*",
+		"jade": ">=15.0.3"
+	}
+}
