@@ -11,6 +11,6 @@ public class IsThatIronGolemFriendly implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info(String.format("[%s] Find some friendly iron golems.", MOD_ID));
+		LOGGER.info("[{}] Find some friendly iron golems.", MOD_ID);
 	}
 }
